@@ -1,0 +1,172 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mainName {
+  font-size: 30px;
+  align-items: center;
+}
+
+.container {
+  max-width: 968px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial;
+}
+
+.container:first-child {
+  text-align: center;
+}
+
+.auth-form {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field > input {
+  border: 0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.field:last-child > button {
+  padding: 10px;
+  color: #fff;
+  background-color: #6fd43f;
+  border: 0;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.field:last-child > button:hover {
+  background-color: #8ae55f;
+}
+
+.field:last-child {
+  text-align: center;
+}
+.field:first-child {
+  text-align: center;
+  font-weight: 900;
+}
+
+
+.contact-name {
+  width: 28%;
+}
+
+.poiskovik{
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold;
+  /* border: darkblue 1px solid; */
+}
+.btn-del {
+  cursor: pointer;
+}
+.btn-del:hover{
+  background-color: rgba(255, 32, 32, 0.76);
+}
+.btn-edit {
+  cursor: pointer;
+}
+.btn-edit:hover{
+  background-color: rgba(110, 21, 253, 0.76);
+}
+
+.modal-form {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  height: 35%;
+  margin: 15% auto;
+  overflow: auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 31px;
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+}
+
+.modal-form_2 {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 31px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 35%;
+  top: 30%;
+}
+
+.main-wrapper {
+  filter: none;
+}
+.main-wrapper_2 {
+  filter: blur(5px);
+}
+
+#close{
+  cursor: pointer;
+  float: right;
+  background-color: rgba(255, 9, 9, 0.328);
+  width: 12px;
+}
+
+.prikol {
+  margin-top: 160px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.dop-fun{
+  text-align: right;
+}
+
+.dop-fun1 {
+  font-size: 12px;
+  background-color: black;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 44px;
+  text-align: center;
+  color: white;
+  margin-top: 160px;
+}

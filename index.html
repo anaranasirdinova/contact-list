@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Проект № 1
+    Контактная книжка: -->
+
+    <div class="main-wrapper">
+      <div class="wrapper">
+        <div class="contaiter">
+          <div class="mainName">Контактная книжка</div>
+          <div class="auth-form">
+            <div class="field">
+              <span>Добавить контакт</span>
+            </div>
+            <div class="field">
+              <span>Имя:</span>
+              <input type="text" class="first-name" placeholder="имя.." />
+            </div>
+
+            <div class="field">
+              <span>Фамилия:</span>
+              <input type="text" class="last-name" placeholder="фамилия.." />
+            </div>
+
+            <div class="field">
+              <span>Номер:</span>
+              <input type="number" class="phone" placeholder="номер.." />
+            </div>
+
+            <div class="field">
+              <button class="btn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="poiskovik">
+        <span class="poisk">Найти контакт:</span>
+        <input type="text" class="search-contact" placeholder="введите имя контакта..">
+      </div>
+
+      <table class="contacts-list" border="2">
+        <thead>
+          <tr>
+            <th class="contact-name">Имя</th>
+            <th>Фамилия</th>
+            <th>Телефон</th>
+            <th>Удаление</th>
+            <th>Настройка</th>
+          </tr>
+         </thead>
+        <tbody class="list"></tbody>
+      </table>
+
+      <p class="prikol">*Чтобы получить доступ к дополнительным функциям, пополните баланс ЭЛЬСОМ: 554 22 44 06  в размере 500 сом  !<br> или нажми на эту кнопку <button class="dop-fun">ДОПОЛНИТЕЛЬНЫЕ ФУНКЦИИ</button></p>
+      
+    </div>
+
+
+    <div class="wrapper">
+      <div class="modal-bord">
+        <div class="contaiter">
+          <form class="modal-form">
+            <span id="close">&times;</span>
+            <div class="field">
+              <p>Изменение данных</p>
+              <span>Имя:</span>
+              <input type="text" name="first_name" class="first_name" />
+            </div>
+            
+            <div class="field">
+              <span>Фамилия:</span>
+              <input type="text" name="last_name" class="last_name"/>
+            </div>
+            
+            <div class="field">
+              <span>Номер:</span>
+              <input type="number" name="phone" class="phone"  />
+            </div>
+            
+            <div class="field">
+              <button class="btn-modal">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="dop-fun1">
+      <h1>Я же сказал - <br> Чтобы получить доступ <br> к дополнительным функциям, пополните баланс <br> ЭЛЬСОМ: 554 22 44 06  в размере 500 сом  </h1>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
